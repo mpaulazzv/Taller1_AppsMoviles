@@ -175,3 +175,49 @@
   font-size: .8rem;
   margin-top: 3rem;
 }
+
+.contraste{
+  margin-top: 1rem;
+  width: 150px;
+}
+
+.contraste_titulo{
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;  
+  font-size: .8rem;
+}
+
+.contraste_opciones{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: .3rem;
+}
+
+.contraste_opc{
+  border-radius: 100%;
+  font-weight: 700;
+  padding: .3rem .8rem .3rem .8rem;
+  font-family: "Source Sans 3", sans-serif;  
+  font-size: .8rem;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in;
+}
+
+.con_active{
+  background-color: yellow;
+}
+
+.opac_A{
+  font-weight: 600;
+}
+
+.opac_B{
+  font-weight: 400;
+}
+
+.opac_C{
+  font-weight: 300;
+}

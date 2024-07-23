@@ -18,8 +18,14 @@ for( let i = 0; nums.length != 10; i++){
 
 function App() {
 
-  const [mostrar, setMostrar] = useState("password");
+  const [mostrar, setMostrar] = useState("button");
   const [contra, setContra] = useState("");
+
+  const [conA, setConA] = useState(false);
+  const [conB, setConB] = useState(true);
+  const [conC, setConC] = useState(false);
+
+  const [opac, setOpac] = useState("opac_B");
 
   function add( char ){
     if(contra.length < 4){
@@ -32,6 +38,25 @@ function App() {
       alert("Bienvenido")
     }else{
       alert("La contraseña debe ser de minimo 4 caracteres")
+    }
+  }
+
+  function conActive( con ){
+    if(con === "A"){
+      setConA(true);
+      setConB(false);
+      setConC(false);
+      setOpac("opac_A");
+    }else if(con === "B"){
+      setConA(false);
+      setConB(true);
+      setConC(false);
+      setOpac("opac_B");
+    }else{
+      setConA(false);
+      setConB(false);
+      setConC(true);
+      setOpac("opac_C");
     }
   }
 
@@ -50,7 +75,7 @@ function App() {
               <p className='subtitulo_clave'> Ingresa tu clave </p>
               <div className="caja_clave">
                 <GiPadlock className='seguro'/>
-                <input type="password" className='caja' value={contra} />
+                <input type="password" className='caja' disabled value={contra} />
               </div>
               <p className="comentario_clave">Ingresa mediante el teclado virtual la clave que usas en el cajero
                 automatico.
@@ -65,15 +90,25 @@ function App() {
               <p className='bottom_comentario'>Genera una clave personal</p>
             </div>
           </div>
-          <div className="consola" onMouseEnter={() => {setMostrar("button")}} onMouseLeave={() => {setMostrar("password")}}>
-            {
-              nums.map((item) =>{
-                return(
-                  <input className="numero" type={mostrar}  value={item} readonly onClick={() => {add(item)}} />
-                )
-              })
-            }
-            <input type='button' className="opc" value={"Borrar"} onClick={() => {setContra(contra.substring(0, contra.length - 1))}}/>
+          <div className="">
+            <div className="consola" onMouseEnter={() => {setMostrar("password")}} onMouseLeave={() => {setMostrar("button")}}>
+              {
+                nums.map((item) =>{
+                  return(
+                    <input className={"numero " + opac} type={mostrar} value={item} readonly onClick={() => {add(item)}} />
+                  )
+                })
+              }
+              <input type='button' className="opc" value={"Borrar"} onClick={() => {setContra(contra.substring(0, contra.length - 1))}}/>
+            </div>
+            <div className="contraste">
+                <p className='contraste_titulo'>Contraste</p>
+                <div className="contraste_opciones">
+                  <p className={conA ? "contraste_opc opac_A con_active" : "contraste_opc opac_A"} onClick={() => {conActive("A")}}> A </p>
+                  <p className={conB ? "contraste_opc opac_B con_active" : "contraste_opc opac_B"} onClick={() => {conActive("B")}}> B </p>
+                  <p className={conC ? "contraste_opc opac_C con_active" : "contraste_opc opac_C"} onClick={() => {conActive("C")}}> C </p>
+                </div>
+              </div>
           </div>
         </div>
       </div>
