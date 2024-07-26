@@ -1,0 +1,523 @@
+body {
+    display: grid;
+    margin: 0;
+}
+
+.menu_busqueda {
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(80, 213, 222); */
+    height: 50px;
+    width: 100%;
+    border-bottom: #efefef 2px solid;
+}
+
+.nin_logo {
+    height: 100%;
+    width: 100px;
+    margin-right: 10px;
+}
+
+
+.lupa {
+    font-size: 20px;
+    color: #434242;
+    /* background-color: blueviolet; */
+    height: 100%;
+}
+
+.lupa:hover {
+    color: #e60012;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+    margin: 0;
+    width: 400px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: #434242 1px solid;
+}
+
+
+.inp_busc {
+    margin-left: 5px;
+    outline: none;
+    height: 17px;
+    width: 280px;
+    border: none;
+
+}
+
+.dropdown {
+    border: none;
+    padding-bottom: 5px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 20% 24% 18% 20%;
+    gap: 2px;
+    /* background-color: blue; */
+    margin-left: 40px;
+    justify-content: right;
+
+    width: 450px;
+}
+
+.support {
+    display: flex;
+    justify-content: end;
+    /* background-color: #e60012; */
+
+}
+
+.support:hover {
+    color: #e60012;
+}
+
+.support:hover .icon_op_sup {
+    color: #e60012;
+}
+
+.icon_op_sup {
+    color: #434242;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 25%;
+    /* background-color: crimson; */
+}
+
+.icon_op_wl {
+    color: #434242;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 25%;
+    /* background-color: crimson; */
+}
+
+.icon_op_cart {
+    color: #434242;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 25%;
+    /* background-color: crimson; */
+}
+
+.icon_op_log {
+    color: #434242;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 25%;
+    /* background-color: crimson; */
+}
+
+.text_op {
+    /* background-color: cadetblue; */
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.wl {
+    display: flex;
+    justify-content: end;
+    /* background-color: burlywood;  */
+
+}
+
+.wl:hover {
+    color: #e60012;
+}
+
+.wl:hover .icon_op_wl {
+    color: #e60012;
+}
+
+.cart {
+    display: flex;
+    justify-content: end;
+    /* background-color: chartreuse; */
+}
+
+.cart:hover {
+    color: #e60012;
+}
+
+.cart:hover .icon_op_cart {
+    color: #e60012;
+}
+
+.log {
+    display: flex;
+    justify-content: end;
+    /* background-color: chocolate; */
+}
+
+.log:hover {
+    color: #e60012;
+}
+
+.log:hover .icon_op_log {
+    color: #e60012;
+}
+
+.submenu {
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(80, 213, 222); */
+    height: 40px;
+    width: 100%;
+    border-bottom: #efefef 2px solid;
+}
+
+
+.search_2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+    gap: 10px;
+    padding-top: 8px;
+    justify-content: center;
+}
+
+.dropdown_store {
+    border: none;
+    padding-bottom: 5px;
+    color: #434242;
+}
+
+.dropdown_games {
+    border: none;
+    padding-bottom: 5px;
+    color: #434242;
+}
+
+.dropdown_ns {
+    border: none;
+    padding-bottom: 5px;
+    color: #434242;
+}
+
+.dropdown_play {
+    border: none;
+    padding-bottom: 5px;
+    color: #434242;
+}
+
+
+.news {
+    display: flex;
+    flex-direction: row;
+}
+
+.news p {
+    font-size: 15px;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #434242;
+}
+
+.icon_op_news {
+    font-size: 20px;
+    margin-top: 3px;
+    color: #434242;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.icon_op_store {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #434242;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.icon_op_games {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #434242;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.icon_op_ns {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #434242;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.icon_op_play {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #434242;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.dropdown_ns:hover {
+    color: #e60012;
+}
+
+.cont_ns:hover .icon_op_ns {
+    color: #e60012;
+}
+
+.dropdown_store:hover {
+    color: #e60012;
+}
+
+.cont_store:hover .icon_op_store {
+    color: #e60012;
+}
+
+.dropdown_games:hover {
+    color: #e60012;
+}
+
+.cont_games:hover .icon_op_games {
+    color: #e60012;
+}
+
+.dropdown_play:hover {
+    color: #e60012;
+}
+
+.cont_play:hover .icon_op_play {
+    color: #e60012;
+}
+
+.news:hover p {
+    color: #e60012;
+}
+
+.news:hover .icon_op_news {
+    color: #e60012;
+}
+
+.trimenu {
+    display: flex;
+    flex-direction: row;
+    background-color: #efefef;
+    height: 30px;
+    width: 100%;
+}
+
+.search_3 {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.shipping {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.shipping p {
+    margin: 0;
+    margin-top: 3px;
+    font-size: 12px;
+    margin-left: 10px;
+    color: #434242;
+}
+
+.icon_op_truck {
+    color: #e60012;
+}
+
+.ninp {
+    color: #434242;
+}
+
+.restr {
+    color: #434242;
+}
+
+.coin {
+    display: flex;
+    flex-direction: row;
+    border-left: #434242 1px solid;
+}
+
+.coin p {
+    margin: 0;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 3px;
+    color: #434242;
+}
+
+.icon_op_coin {
+    color: #e60012;
+    margin-left: 10px;
+}
+
+.im_blue {
+    width: 100%;
+    height: 400px;
+    background-color: #d6f0fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.star_logo {
+    width: 350px;
+    height: 200px;
+}
+
+.game_prin {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 40px 210px 50px;
+    width: 75%;
+    height: 400px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    justify-content: center;
+    column-gap: 80px;
+    position: relative;
+
+}
+
+.game_prin::after {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: ' ';
+    background: #434242;
+    width: 100%;
+    height: 100%;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+.precio {
+    display: flex;
+    flex-direction: row;
+}
+
+.game_prin {
+    color: #434242;
+    font-size: 12px;
+}
+
+.yop {
+    margin-top: 15px;
+    grid-column: 1/3;
+    height: min-content;
+    color: #434242;
+}
+
+.console {
+    font-size: 10px;
+    border-bottom: #e60012 2px solid;
+    width: 70px;
+}
+
+.stardiu {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.precio p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.icon_op_like {
+    font-size: 20px;
+    color: #e60012;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.elegible {
+    font-size: 8px;
+    color: #434242;
+}
+
+.download {
+    width: 100%;
+    color: #ffffff;
+    margin-top: 5px;
+    background-color: #e60012;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.disc {
+    font-size: 8px;
+    color: #434242;
+}
+
+.collec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 50px;
+}
+
+.coll_im {
+    width: 66px;
+    height: 40px;
+}
+
+.pegi {
+    height: 70px;
+    width: 300px;
+    grid-row-start: 4;
+}
+
+.main_2 {
+    width: 400px;
+    height: 200px;
+}
+
+.texto_img {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    column-gap: 60px;
+    margin-top: 50px;
+}
+
+.texto_img p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.leermas {
+    display: flex;
+    flex-direction: row;
+}
+
+.leermas p {
+    font-size: 15px;
+    color: #e60012;
+    margin: 0;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.icon_op_more {
+    color: #e60012;
+    font-size: 15px;
+}
