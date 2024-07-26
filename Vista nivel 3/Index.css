@@ -62,9 +62,8 @@ body {
     grid-template-columns: 20% 24% 18% 20%;
     gap: 2px;
     /* background-color: blue; */
-    margin-left: 40px;
+    margin-left: 280px;
     justify-content: right;
-
     width: 450px;
 }
 
@@ -389,7 +388,7 @@ body {
     margin-top: 20px;
     background-color: #ffffff;
     justify-content: center;
-    column-gap: 80px;
+    column-gap: 10px;
     position: relative;
 
 }
@@ -471,8 +470,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 5px;
-    margin-left: 50px;
+    column-gap: 5px;
+    margin: 0;
+    margin-right: 30px;
 }
 
 .coll_im {
@@ -493,7 +493,7 @@ body {
 
 .texto_img {
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 35% 35%;
     justify-content: center;
     column-gap: 60px;
     margin-top: 50px;
@@ -517,7 +517,145 @@ body {
     font-weight: bold;
 }
 
+.esrb {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    justify-content: center;
+    margin-top: 30px;
+    column-gap: 30px;
+}
+
 .icon_op_more {
     color: #e60012;
     font-size: 15px;
+}
+
+.cuadros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    background-color: #efefef;
+    height: 100%;
+}
+
+.imaes {
+    background-color: #efefef;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.imaes p {
+    font-size: 15px;
+    color: #434242;
+    text-align: center;
+}
+
+.imaes img {
+    margin-left: 15%;
+}
+
+
+.tv {
+    display: flex;
+    color: #ffffff;
+    background-color: #0b2b6b;
+    width: 120px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.etc {
+    display: grid;
+    grid-template-columns: 75%;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.etc_2 {
+    display: grid;
+    grid-template-columns: 75%;
+    justify-content: center;
+}
+
+.release {
+    display: flex;
+    flex-direction: row;
+    border-top: #efefef 2px solid;
+    border-bottom: #efefef 2px solid;
+    padding: 10px;
+}
+
+.release_2 {
+    display: flex;
+    flex-direction: row;
+    border-bottom: #efefef 2px solid;
+    padding: 10px;
+}
+
+.rel {
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.icon_op_cal {
+    font-size: 25px;
+    color: #434242;
+}
+
+.date {
+    margin-left: 250px;
+    margin-top: 5px;
+}
+
+.pie {
+    display: flex;
+    background-color: #e60012;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.nin_logo_2 {
+    width: 200px;
+    height: 100px;
+}
+
+.redes {
+    margin-left: 800px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+.icon_op_red {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    column-gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.about {
+    border-right: #efefef 2px solid;
+}
+
+.title {
+    color: #434242;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.normal {
+    color: #e60012;
+    font-size: 18px;
+    font-weight: bolder;
 }
