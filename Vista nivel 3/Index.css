@@ -1,6 +1,7 @@
 body {
     display: grid;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .menu_busqueda {
