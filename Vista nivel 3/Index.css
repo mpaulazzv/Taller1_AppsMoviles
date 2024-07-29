@@ -480,6 +480,91 @@ body {
     font-weight: 400;
 }
 
+.eeee {
+    font-size: 25px;
+    color: #434242;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.rr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    height: 300px;
+
+}
+
+.rrgim {
+    width: 100%;
+    height: 120px;
+}
+
+.rrg {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: #6a6a6a 1px solid;
+    width: 200px;
+    height: 100%;
+}
+
+.rrgp {
+    font-size: 15px;
+    color: #434242;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.rrgprice {
+    font-size: 15px;
+    color: #434242;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.rrgprice_alt {
+    font-size: 15px;
+    color: #434242;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-top: 42px;
+    margin-left: 10px;
+}
+
+.final {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon_op_like_fin {
+    font-size: 20px;
+    color: #e60012;
+    margin-left: 70px;
+
+}
+
+
+.console_fin {
+    font-size: 12px;
+    border-bottom: #e60012 2px solid;
+    width: 90px;
+    height: 16px;
+    font-family: "Roboto";
+    font-weight: 400;
+    text-align: center;
+    margin-left: 10px;
+}
+
 .download {
     width: 100%;
     color: #ffffff;
