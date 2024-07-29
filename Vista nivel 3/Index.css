@@ -56,6 +56,8 @@ body {
 .dropdown {
     border: none;
     padding-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .options {
@@ -95,7 +97,7 @@ body {
     color: #434242;
     font-size: 20px;
     margin-top: 15px;
-    margin-left: 25%;
+    margin-left: 20%;
     /* background-color: crimson; */
 }
 
@@ -117,8 +119,11 @@ body {
 
 .text_op {
     /* background-color: cadetblue; */
-    font-size: 15px;
+    font-size: 13px;
+    margin-top: 20px;
     margin-left: 5px;
+    font-family: "Roboto";
+    font-weight: 500;
 }
 
 .wl {
@@ -179,7 +184,7 @@ body {
     flex-direction: row;
     margin: 0;
     width: 100%;
-    gap: 10px;
+    gap: 20px;
     padding-top: 8px;
     justify-content: center;
 }
@@ -188,34 +193,45 @@ body {
     border: none;
     padding-bottom: 5px;
     color: #434242;
+    font-family: "Roboto";
+    font-weight: 500;
 }
 
 .dropdown_games {
     border: none;
     padding-bottom: 5px;
     color: #434242;
+    font-family: "Roboto";
+    font-weight: 500;
+
 }
 
 .dropdown_ns {
     border: none;
     padding-bottom: 5px;
     color: #434242;
+    font-family: "Roboto";
+    font-weight: 500;
 }
 
 .dropdown_play {
     border: none;
     padding-bottom: 5px;
     color: #434242;
+    font-family: "Roboto";
+    font-weight: 500;
 }
-
 
 .news {
     display: flex;
     flex-direction: row;
+
 }
 
 .news p {
-    font-size: 15px;
+    font-size: 13px;
+    font-family: "Roboto";
+    font-weight: 500;
     margin: 0;
     margin-top: 5px;
     margin-left: 5px;
@@ -224,7 +240,7 @@ body {
 
 .icon_op_news {
     font-size: 20px;
-    margin-top: 3px;
+    margin-top: 2px;
     color: #434242;
     text-decoration: none;
     padding-bottom: 5px;
@@ -333,6 +349,8 @@ body {
     font-size: 12px;
     margin-left: 10px;
     color: #434242;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 
 .icon_op_truck {
@@ -351,6 +369,8 @@ body {
     display: flex;
     flex-direction: row;
     border-left: #434242 1px solid;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 
 .coin p {
@@ -421,22 +441,28 @@ body {
     grid-column: 1/3;
     height: min-content;
     color: #434242;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 
 .console {
-    font-size: 10px;
+    font-size: 12px;
     border-bottom: #e60012 2px solid;
-    width: 70px;
+    width: 90px;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 
 .stardiu {
-    font-weight: bold;
-    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 25px;
 
 }
 
 .precio p {
-    font-weight: bold;
+    font-family: "Roboto";
+    font-weight: 600;
     font-size: 18px;
 }
 
@@ -450,6 +476,8 @@ body {
 .elegible {
     font-size: 8px;
     color: #434242;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 
 .download {
@@ -460,11 +488,15 @@ body {
     border: none;
     padding: 10px;
     border-radius: 3px;
+    font-family: "Roboto";
+    font-weight: 500;
 }
 
 .disc {
     font-size: 8px;
     color: #434242;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 
 .collec {
@@ -482,10 +514,14 @@ body {
 }
 
 .pegi {
-    height: 70px;
-    width: 300px;
+    height: 80px;
+    width: 350px;
     grid-row-start: 4;
+    margin-left: -5px;
 }
+
+
+
 
 .main_2 {
     width: 400px;
@@ -501,8 +537,11 @@ body {
 }
 
 .texto_img p {
-    font-size: 12px;
+    font-size: 13px;
     text-align: justify;
+    color: #6a6a6a;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 
 .leermas {
@@ -539,6 +578,7 @@ body {
     column-gap: 5px;
     background-color: #efefef;
     height: 100%;
+
 }
 
 .cuadros p {
@@ -546,6 +586,8 @@ body {
     grid-column: 1/4;
     text-align: center;
     color: #434242;
+    font-family: "Roboto";
+    font-weight: 400;
 
 }
 
@@ -587,6 +629,8 @@ body {
     font-size: 15px;
     color: #434242;
     text-align: center;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 
 .imaes img {
@@ -604,6 +648,9 @@ body {
     height: 70px;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 
 .etc {
@@ -638,6 +685,9 @@ body {
     margin: 0;
     margin-left: 10px;
     margin-top: 5px;
+    font-family: "Roboto";
+    font-weight: 400;
+    width: 180px;
 }
 
 .icon_op_cal {
@@ -646,8 +696,72 @@ body {
 }
 
 .date {
-    margin-left: 250px;
+    margin-left: 190px;
     margin-top: 5px;
+    color: #6a6a6a;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.spm {
+    margin-left: 190px;
+    margin-top: 5px;
+    color: #6a6a6a;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.gfz {
+    margin-left: 200px;
+    margin-top: 5px;
+    color: #6a6a6a;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.sl {
+    margin-left: 220px;
+    margin-top: 5px;
+    color: #6a6a6a;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+
+.hylink {
+    color: #e60012;
+    margin-top: 5px;
+    margin-left: 190px;
+    font-weight: bold;
+}
+
+.ghylink {
+    color: #e60012;
+    margin-top: 5px;
+    margin-left: 190px;
+    font-weight: bold;
+}
+
+.phylink {
+    color: #e60012;
+    margin-top: 5px;
+    margin-left: 197px;
+    font-weight: bold;
+}
+
+.ehylink {
+    color: #e60012;
+    margin-top: 5px;
+    margin-left: 190px;
+    font-weight: bold;
+}
+
+
+.hylink_2 {
+    color: #e60012;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: bold;
 }
 
 .pie {
@@ -691,12 +805,17 @@ body {
     color: #434242;
     font-weight: bolder;
     font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 600;
+    margin-right: 5px;
 }
 
 .normal {
     color: #e60012;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bolder;
+    font-family: "Roboto";
+    font-weight: 500;
 }
 
 .pie_2 {
@@ -732,12 +851,19 @@ body {
 .online {
     margin-top: 50px;
     width: 100%;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template: 50% 50% / 70%;
     justify-content: center;
+    background-color: #e60012;
 }
 
 .onlimg {
     width: 900px;
     height: 300px;
+}
+
+.rial {
+    width: 900px;
+    height: 300px;
+    background-color: #efefef;
 }
